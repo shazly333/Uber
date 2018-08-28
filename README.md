@@ -5,8 +5,7 @@ Table of contents
 =================
 
 <!--ts-->
-   * [gh-md-toc](#gh-md-toc)
-   * [Table of contents](#table-of-contents)
+   * [Technologies used and cocoapods](#Technologies-used-and-cocoapods)
    * [Installation](#installation)
    * [Usage](#usage)
       * [STDIN](#stdin)
@@ -18,3 +17,6 @@ Table of contents
    * [Tests](#tests)
    * [Dependency](#dependency)
 <!--te-->
+
+Technologies used and cocoapods
+=====
