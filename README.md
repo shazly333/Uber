@@ -6,19 +6,18 @@ Table of contents
 
 <!--ts-->
    * [Technologies used and cocoapods](#technologies-used-and-cocoapods)
-   * [Prerequisites](#installation)
-   * [Installation](#installation)
-   * [User Guide For Customer](#User-Guide-For-Customer)
-      * [Create Account](#Create-Account)
-      * [Order Driver](#Order-Driver)
-   * [User Guide For Drivers](#User-Guide-For-Drivers)
-      * [Create Account](#Create-Account)
-      * [Pick up Customer](#Pick-up-Customer)
-      * [Reach Destination](#Reach-Destination)
+   * [Prerequisites](#prerequisites)
+   * [Installation](#clone)
+   * [User Guide For Customers](#User-Guide-For-Customers)
+      * [Sign up and Sign in](#sign-up-and-sign-in)
+      * [Order driver](#order-driver)
+   * [User Guide For Drivers](#user-guide-for-drivers)
+      * [Create account](#create-account)
+      * [Pick up customer and Reach distination](#pick-up-customer-and-reach-distination)
    * [license](#license)
 <!--te-->
 
-Technologies used and Cocoapods
+Technologies used and Cocoapods:
 ===========
 
   - Swift 4.0 and Xcode 9.0 are used to implement this project.
@@ -28,5 +27,47 @@ Technologies used and Cocoapods
   - Alamofire and SwiftyJSON are used to take the response of google map as Json respond and deserializing it.
   - SVProgressHUD is used to show load ring.
   
-installation
+Prerequisites:
+=============
+
+  - You Should have MacOS (operation system supported by apple.
+  - Xcode IDE.
+
+Clone
 =====
+  Clone this repo `https://github.com/shazly333/Uber.git`
+  
+User Guide For Customers:
+=======================
+  
+Sign up and Sign in:
+-------------------
+  
+  - Enter your email and password and make sure you make switch button on customer side, then press sign up.
+  - To sign in just press button sign in and enter your email and password.
+  <p align="center">
+  <img src="images/signupcustomer.png" width = "200">
+    <img src="images/signincustomer.png" width = "200">
+  </p>
+  
+  Order driver:
+  -------------
+  
+  - Just press on Order Driver button on the upper right side of screen to get the nearset driver for your location.
+  
+  <p align="center">
+  <img src="images/signupcustomer.png" width = "200">  </p>
+  
+User Guide For Drivers:
+=======================
+
+  Sign up and Sign in:
+-------------------
+  
+  - Enter your email and password and make sure you make switch button on driver side, then press sign up.
+  - To sign in just press button sign in and enter your email and password.
+  <p align="center">
+  <img src="images/signupdriver.png" width = "200">
+    <img src="images/signindriver.png" width = "200">
+  </p>
+  
