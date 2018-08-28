@@ -94,5 +94,6 @@ User Guide For Drivers:
 License:
 ========
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)]
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 Copyright (c) 2018 Mohamed Kamal El-Shazly
+[LICENSE.md](https://github.com/Magho/weather-app-/blob/master/LICENSE)
