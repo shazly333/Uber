@@ -22,7 +22,7 @@ Technologies used and Cocoapods:
 ===========
 
   - Swift 4.0 and Xcode 9.0 are used to implement this project.
-  - Fire base is used to host the database and track the requests between dricers and customers.
+  - Fire base is used to host the database and track the requests between drivers and customers.
   - Google maps is used to show paths and locations of users.
   - GeoFire is used to make query to find the nearest driver to the customer.
   - Alamofire and SwiftyJSON are used to take the response of google map as Json respond and deserializing it.
