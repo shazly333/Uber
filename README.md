@@ -5,17 +5,17 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Technologies used and cocoapods](#technologies-used-and-cocoapods)
+   * [Technologies used and cocoapods.](#technologies-used-and-cocoapods)
    * [Prerequisites](#prerequisites)
    * [Installation](#clone)
-   * [User Guide For Customers](#User-Guide-For-Customers)
+   * [User Guide For Customers:](#user-guide-for-customers)
       * [Sign up and Sign in](#sign-up-and-sign-in)
       * [Order driver](#order-driver)
-   * [User Guide For Drivers](#user-guide-for-drivers)
-      * [Sign up and Sign in](#sign-up-and-sign-in)
+   * [User Guide For Drivers:](#user-guide-for-drivers)
+      * [Sign up and Sign in](#sign-up-and-sign-in-for-driver)
       * [Get order](#get-order)
       * [Pick up customer and Reach distination](#pick-up-customer-and-reach-distination)
-   * [license](#license)
+   * [License](#license)
 <!--te-->
 
 Technologies used and Cocoapods:
@@ -41,8 +41,8 @@ Clone
 User Guide For Customers:
 =======================
   
-Sign up and Sign in:
--------------------
+  Sign up and Sign in:
+  -------------------
   
   - Enter your email and password and make sure you make switch button on customer side, then press sign up.
   - To sign in just press button sign in and enter your email and password.
@@ -62,8 +62,8 @@ Sign up and Sign in:
 User Guide For Drivers:
 =======================
 
-  Sign up and Sign in:
--------------------
+  Sign up and Sign in for driver:
+  ------------------------------
   
   - Enter your email and password and make sure you make switch button on driver side, then press sign up.
   - To sign in just press button sign in and enter your email and password.
@@ -72,16 +72,16 @@ User Guide For Drivers:
     <img src="images/signindriver.png" width = "200">
   </p>
   
- Get order:
- ---------
-  - When driver get an order from customer, red path appears on the map to show him the shortest path from his location to the customer.
+  Get order:
+  ---------
+  - When driver get an order from customer, red path appears on the map to show him the shortest path from his location to the       customer.
   
    <p align="center">
   <img src="images/path.png" width = "200">  </p>
   
  
-Pick up customer and Reach distination:
----------------------------------------
+  Pick up customer and Reach distination:
+  ---------------------------------------
 
 - When driver react to the customer, he should press Pick up botton to clear map from the marker and red path.
 - When driver reach to the destination of the customer, he should press Drop Down botton to get the cost.
@@ -90,3 +90,9 @@ Pick up customer and Reach distination:
   <img src="images/pickup.png" width = "200">
     <img src="images/cost.png" width = "200">
   </p>
+
+License:
+========
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)]
+Copyright (c) 2018 Mohamed Kamal El-Shazly
