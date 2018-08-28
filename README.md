@@ -12,7 +12,8 @@ Table of contents
       * [Sign up and Sign in](#sign-up-and-sign-in)
       * [Order driver](#order-driver)
    * [User Guide For Drivers](#user-guide-for-drivers)
-      * [Create account](#create-account)
+      * [Sign up and Sign in](#sign-up-and-sign-in)
+      * [Get order](#get-order)
       * [Pick up customer and Reach distination](#pick-up-customer-and-reach-distination)
    * [license](#license)
 <!--te-->
@@ -56,7 +57,7 @@ Sign up and Sign in:
   - Just press on Order Driver button on the upper right side of screen to get the nearset driver for your location.
   
   <p align="center">
-  <img src="images/signupcustomer.png" width = "200">  </p>
+  <img src="images/order.png" width = "200">  </p>
   
 User Guide For Drivers:
 =======================
@@ -71,3 +72,21 @@ User Guide For Drivers:
     <img src="images/signindriver.png" width = "200">
   </p>
   
+ Get order:
+ ---------
+  - When driver get an order from customer, red path appears on the map to show him the shortest path from his location to the customer.
+  
+   <p align="center">
+  <img src="images/path.png" width = "200">  </p>
+  
+ 
+Pick up customer and Reach distination:
+---------------------------------------
+
+- When driver react to the customer, he should press Pick up botton to clear map from the marker and red path.
+- When driver reach to the destination of the customer, he should press Drop Down botton to get the cost.
+
+<p align="center">
+  <img src="images/pickup.png" width = "200">
+    <img src="images/cost.png" width = "200">
+  </p>
