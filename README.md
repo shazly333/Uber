@@ -1,7 +1,7 @@
 # Uber
 IOS application which has the same functionality of uber application
 
-Table of contents
+Table of contents:
 =================
 
 <!--ts-->
