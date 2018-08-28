@@ -13,6 +13,7 @@ import GeoFire
 import Alamofire
 import SwiftyJSON
 import SVProgressHUD
+
 class Request{
     static var request = Request()
     var geoFireRef: DatabaseReference!
@@ -46,6 +47,8 @@ class Request{
             })
         }
     }
+    
+    
     func getPath(startLocation: CLLocation, endLocation: CLLocation) -> String {
         let origin = "\(startLocation.coordinate.latitude),\(startLocation.coordinate.longitude)"
         let destination = "\(endLocation.coordinate.latitude),\(endLocation.coordinate.longitude)"
@@ -71,10 +74,7 @@ class Request{
         
         distance = distance + startLocation.distance(from: newPoint)
         startLocation = newPoint
-
         Database.database().reference().child("Request/\((Auth.auth().currentUser?.uid)!)/").setValue(["latitude": newPoint.coordinate.latitude, "longitude": newPoint.coordinate.longitude])
-
-
     }
 
 }
