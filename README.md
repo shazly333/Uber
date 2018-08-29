@@ -9,16 +9,16 @@ Table of contents:
    * [Prerequisites](#prerequisites)
    * [Installation](#clone)
    * [User Guide For Customers:](#user-guide-for-customers)
-      * [Sign up and Sign in](#sign-up-and-sign-in)
-      * [Order driver](#order-driver)
-   * [User Guide For Drivers:](#user-guide-for-drivers)
-      * [Sign up and Sign in](#sign-up-and-sign-in-for-driver)
-      * [Get order](#get-order)
-      * [Pick up customer and Reach distination](#pick-up-customer-and-reach-distination)
+      * [Sign Up And Sign In](#sign-up-and-sign-in)
+      * [Order Driver](#order-driver)		       
+   * [User Guide For Drivers:](#user-guide-for-drivers)		   
+      * [Sign Up And Sign In](#sign-up-and-sign-in-for-driver)		    
+      * [Get Order](#get-order)		      
+      * [Pick Up Customer And Reach Distination](#pick-up-customer-and-reach-distination)		
    * [License](#license)
 <!--te-->
 
-Technologies used and Cocoapods:
+Technologies Used And Cocoapods:
 ===========
 
   - Swift 4.0 and Xcode 9.0 are used to implement this project.
@@ -41,7 +41,7 @@ Clone:
 User Guide For Customers:
 =======================
   
-  Sign up and Sign in:
+  Sign Up And Sign In:		
   -------------------
   
   - Enter your email and password and make sure you make switch button on customer side, then press sign up.
@@ -51,7 +51,7 @@ User Guide For Customers:
     <img src="images/signincustomer.png" width = "200">
   </p>
   
-  Order driver:
+  Order Driver:
   -------------
   
   - Just press on Order Driver button on the upper right side of screen to get the nearset driver for your location.
@@ -62,7 +62,7 @@ User Guide For Customers:
 User Guide For Drivers:
 =======================
 
-  Sign up and Sign in for driver:
+  Sign Up And Sign In For Driver:		
   ------------------------------
   
   - Enter your email and password and make sure you make switch button on driver side, then press sign up.
@@ -72,7 +72,7 @@ User Guide For Drivers:
     <img src="images/signindriver.png" width = "200">
   </p>
   
-  Get order:
+  Get Order:
   ---------
   - When driver get an order from customer, red path appears on the map to show him the shortest path from his location to the       customer.
   
@@ -80,7 +80,7 @@ User Guide For Drivers:
   <img src="images/path.png" width = "200">  </p>
   
  
-  Pick up customer and Reach distination:
+  Pick Up Customer And Reach Distination:		
   ---------------------------------------
 
 - When driver react to the customer, he should press Pick up botton to clear map from the marker and red path.
