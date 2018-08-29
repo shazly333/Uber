@@ -5,7 +5,7 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Technologies used and cocoapods.](#technologies-used-and-cocoapods)
+   * [Technologies Used And Cocoapods](#technologies-used-and-cocoapods)
    * [Prerequisites](#prerequisites)
    * [Installation](#clone)
    * [User Guide For Customers:](#user-guide-for-customers)
@@ -18,7 +18,7 @@ Table of contents
    * [License](#license)
 <!--te-->
 
-Technologies used and Cocoapods:
+Technologies Used And Cocoapods:
 ===========
 
   - Swift 4.0 and Xcode 9.0 are used to implement this project.
