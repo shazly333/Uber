@@ -1,28 +1,28 @@
 # Uber
 IOS application which has the same functionality of uber application
 
-Table of contents
+Table of contents:
 =================
 
 <!--ts-->
-   * [Technologies Used And Cocoapods](#technologies-used-and-cocoapods)
+   * [Technologies used and cocoapods.](#technologies-used-and-cocoapods)
    * [Prerequisites](#prerequisites)
    * [Installation](#clone)
    * [User Guide For Customers:](#user-guide-for-customers)
-      * [Sign Up And Sign In](#sign-up-and-sign-in)
-      * [Order Driver](#order-driver)
+      * [Sign up and Sign in](#sign-up-and-sign-in)
+      * [Order driver](#order-driver)
    * [User Guide For Drivers:](#user-guide-for-drivers)
-      * [Sign Up And Sign In](#sign-up-and-sign-in-for-driver)
-      * [Get Order](#get-order)
-      * [Pick Up Customer And Reach Distination](#pick-up-customer-and-reach-distination)
+      * [Sign up and Sign in](#sign-up-and-sign-in-for-driver)
+      * [Get order](#get-order)
+      * [Pick up customer and Reach distination](#pick-up-customer-and-reach-distination)
    * [License](#license)
 <!--te-->
 
-Technologies Used And Cocoapods:
+Technologies used and Cocoapods:
 ===========
 
   - Swift 4.0 and Xcode 9.0 are used to implement this project.
-  - Fire base is used to host the database and track the requests between dricers and customers.
+  - Fire base is used to host the database and track the requests between drivers and customers.
   - Google maps is used to show paths and locations of users.
   - GeoFire is used to make query to find the nearest driver to the customer.
   - Alamofire and SwiftyJSON are used to take the response of google map as Json respond and deserializing it.
@@ -34,14 +34,14 @@ Prerequisites:
   - You Should have MacOS (operation system supported by apple.
   - Xcode IDE.
 
-Clone
+Clone:
 =====
   Clone this repo `https://github.com/shazly333/Uber.git`
   
 User Guide For Customers:
 =======================
   
-  Sign Up And Sign In:
+  Sign up and Sign in:
   -------------------
   
   - Enter your email and password and make sure you make switch button on customer side, then press sign up.
@@ -51,7 +51,7 @@ User Guide For Customers:
     <img src="images/signincustomer.png" width = "200">
   </p>
   
-  Order Driver:
+  Order driver:
   -------------
   
   - Just press on Order Driver button on the upper right side of screen to get the nearset driver for your location.
@@ -62,7 +62,7 @@ User Guide For Customers:
 User Guide For Drivers:
 =======================
 
-  Sign Up And Sign In For Driver:
+  Sign up and Sign in for driver:
   ------------------------------
   
   - Enter your email and password and make sure you make switch button on driver side, then press sign up.
@@ -72,7 +72,7 @@ User Guide For Drivers:
     <img src="images/signindriver.png" width = "200">
   </p>
   
-  Get Order:
+  Get order:
   ---------
   - When driver get an order from customer, red path appears on the map to show him the shortest path from his location to the       customer.
   
@@ -80,7 +80,7 @@ User Guide For Drivers:
   <img src="images/path.png" width = "200">  </p>
   
  
-  Pick Up Customer And Reach Distination:
+  Pick up customer and Reach distination:
   ---------------------------------------
 
 - When driver react to the customer, he should press Pick up botton to clear map from the marker and red path.
@@ -94,5 +94,5 @@ User Guide For Drivers:
 License:
 ========
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)]
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 Copyright (c) 2018 Mohamed Kamal El-Shazly
