@@ -7,7 +7,7 @@ Table of contents:
 <!--ts-->
    * [Technologies used and cocoapods.](#technologies-used-and-cocoapods)
    * [Prerequisites](#prerequisites)
-   * [Installation](#clone)
+   * [Clone](#clone)
    * [User Guide For Customers:](#user-guide-for-customers)
       * [Sign Up And Sign In](#sign-up-and-sign-in)
       * [Order Driver](#order-driver)		       
