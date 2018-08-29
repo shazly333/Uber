@@ -1,5 +1,5 @@
 # Uber
-IOS application which has the same functionality of uber application
+IOS application which has the same functionality as uber application
 
 Table of contents:
 =================
